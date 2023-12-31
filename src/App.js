@@ -7,12 +7,14 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div className=" flex justify-center items-center border-2 border-yellow-400">
+    <div className=" relative w-screen h-screen border-2 border-yellow-400 bg-slate-200">
+      
+      <Dashboard/>
       <Header/>
       <SubHeader/>
       <Graph/>
       <ProductSale/>
-      <Dashboard/>
+      
       
     </div>
   );
